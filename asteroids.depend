@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1649594162 source:/home/james/Documents/Local/C++/Projets/asteroids/main.cpp
+	<SFML/Graphics.hpp>
+	"Espace.h"
+	"Jeu.h"
+	<exception>
+
+1649424293 source:/home/james/Documents/Local/C++/Projets/asteroids/src/Vaisseau.cpp
+	"Vaisseau.h"
+	<iostream>
+	"Coordonnees.h"
+	"Espace.h"
+	"Missile.h"
+
+1649594274 /home/james/Documents/Local/C++/Projets/asteroids/include/Vaisseau.h
+	<SFML/Graphics.hpp>
+	"Vecteur.h"
+	"Coordonnees.h"
+	"ElementEspace.h"
+	"Explosion.h"
+	"Espace.h"
+	"Jeu.h"
+
+1649247380 /home/james/Documents/Local/C++/Projets/asteroids/include/Vecteur.h
+
+1649260684 source:/home/james/Documents/Local/C++/Projets/asteroids/src/Vecteur.cpp
+	"Vecteur.h"
+	<cmath>
+
+1649265535 /home/james/Documents/Local/C++/Projets/asteroids/include/Coordonnees.h
+	"Vecteur.h"
+
+1649323813 source:/home/james/Documents/Local/C++/Projets/asteroids/src/Coordonnees.cpp
+	"Coordonnees.h"
+	<iostream>
+	<cmath>
+	<algorithm>
+
+1649345900 source:/home/james/Documents/Local/C++/Projets/asteroids/src/Asteroide.cpp
+	"Asteroide.h"
+	<iostream>
+	<random>
+	"Explosion.h"
+
+1649336340 /home/james/Documents/Local/C++/Projets/asteroids/include/Asteroide.h
+	"ElementEspace.h"
+	"Espace.h"
+
+1649424856 /home/james/Documents/Local/C++/Projets/asteroids/include/ElementEspace.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Vecteur.h"
+	"Coordonnees.h"
+
+1649345636 source:/home/james/Documents/Local/C++/Projets/asteroids/src/ElementEspace.cpp
+	<iostream>
+	"ElementEspace.h"
+	"GestionnaireRessources.h"
+	<SFML/Graphics.hpp>
+
+1649346096 source:/home/james/Documents/Local/C++/Projets/asteroids/src/Explosion.cpp
+	"Explosion.h"
+	"GestionnaireRessources.h"
+
+1649346003 /home/james/Documents/Local/C++/Projets/asteroids/include/Explosion.h
+	<ElementEspace.h>
+
+1649595219 /home/james/Documents/Local/C++/Projets/asteroids/include/Espace.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<memory>
+	"ElementEspace.h"
+
+1649702540 source:/home/james/Documents/Local/C++/Projets/asteroids/src/Espace.cpp
+	<memory>
+	"Espace.h"
+	<iostream>
+
+1649345063 /home/james/Documents/Local/C++/Projets/asteroids/include/Missile.h
+	<ElementEspace.h>
+
+1649345740 source:/home/james/Documents/Local/C++/Projets/asteroids/src/Missile.cpp
+	"Missile.h"
+	"GestionnaireRessources.h"
+
+1649345597 /home/james/Documents/Local/C++/Projets/asteroids/include/GestionnaireRessources.h
+	<unordered_map>
+	<string_view>
+	<iostream>
+	"ExceptionRessourceIntrouvable.h"
+
+1649345815 source:/home/james/Documents/Local/C++/Projets/asteroids/src/GestionnaireRessources.cpp
+	"GestionnaireRessources.h"
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+
+1649595772 source:/home/james/Documents/Local/C++/Projets/asteroids/src/Jeu.cpp
+	"Jeu.h"
+	<memory>
+	<string>
+	"Asteroide.h"
+	"Vaisseau.h"
+	"GestionnaireRessources.h"
+	"font.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1649595545 /home/james/Documents/Local/C++/Projets/asteroids/include/Jeu.h
+	<memory>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Espace.h"
+	<exception>
+
+1649337718 /home/james/Documents/Local/C++/Projets/asteroids/include/font.h
+
+1649343999 source:/home/james/Documents/Local/C++/Projets/asteroids/src/ExceptionRessourceIntrouvable.cpp
+	"ExceptionRessourceIntrouvable.h"
+
+1649343937 /home/james/Documents/Local/C++/Projets/asteroids/include/ExceptionRessourceIntrouvable.h
+	<exception>
+	<string_view>
+	<string>
+

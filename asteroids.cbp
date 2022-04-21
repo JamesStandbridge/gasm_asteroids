@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="asteroids" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/asteroids" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++17" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/asteroids" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/Asteroide.h" />
+		<Unit filename="include/Coordonnees.h" />
+		<Unit filename="include/ElementEspace.h" />
+		<Unit filename="include/Espace.h" />
+		<Unit filename="include/ExceptionRessourceIntrouvable.h" />
+		<Unit filename="include/Explosion.h" />
+		<Unit filename="include/GestionnaireRessources.h" />
+		<Unit filename="include/Jeu.h" />
+		<Unit filename="include/Missile.h" />
+		<Unit filename="include/Vaisseau.h" />
+		<Unit filename="include/Vecteur.h" />
+		<Unit filename="include/font.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Asteroide.cpp" />
+		<Unit filename="src/Coordonnees.cpp" />
+		<Unit filename="src/ElementEspace.cpp" />
+		<Unit filename="src/Espace.cpp" />
+		<Unit filename="src/ExceptionRessourceIntrouvable.cpp" />
+		<Unit filename="src/Explosion.cpp" />
+		<Unit filename="src/GestionnaireRessources.cpp" />
+		<Unit filename="src/Jeu.cpp" />
+		<Unit filename="src/Missile.cpp" />
+		<Unit filename="src/Vaisseau.cpp" />
+		<Unit filename="src/Vecteur.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
